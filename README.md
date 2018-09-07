@@ -1,6 +1,2 @@
-# kathernandez.github.io
-Kat Hernandez webpage
-<!DOCTYPE> 
-<Tittle>
-  Katherine Hernandez
-  <Tittle>
+# thekathernandez.github.io
+Kat Hernandez web works in the Internets!
