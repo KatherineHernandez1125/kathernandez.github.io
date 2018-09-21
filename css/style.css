@@ -9,7 +9,7 @@ body {color: grey ;
       background-color: #F5F5DC
 }
 
-h1 {color: #25357c ;
+h1 {color: orange ;
   font-family: 'font-family: 'Playfair Display', serif;
   font-size: 50px;
   font weight: "bold";
@@ -33,7 +33,7 @@ font-size: 14px;
 
 p {font-size: 14px;
   font-family: 'Open Sans', sans-serif;
-  color: grey;
+  color: #25357c;
   font-weight: bold
 }
 
