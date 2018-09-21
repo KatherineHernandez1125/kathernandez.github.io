@@ -1,4 +1,5 @@
-
+<!DOCTYPE html>
+<html>
 /* This is a CSS Comment*/
 
 body {color: grey ;
@@ -16,7 +17,7 @@ h1 {color: #25357c ;
 
 h2 { color: #25357c ;
  font-size: 14px;
-font-family: 'Open Sans', sans-serif; 
+font-family: 'Open Sans', sans-serif;
 }
 
 h3 { color: orange;
