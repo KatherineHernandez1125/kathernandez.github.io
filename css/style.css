@@ -1,32 +1,41 @@
 
 /* This is a CSS Comment*/
 
-body {color:aquamarine;
-      font-family: "Times New Roman", serif;
+body {color: grey ;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      background-color: #F5F5DC
 }
 
-h1 {color: black;
-  font-size: 64px;
+h1 {color: #25357c ;
+  font-family: 'font-family: 'Playfair Display', serif;
+  font-size: 50px;
   font weight: "bold";
-
 }
 
-h2 b { color: hotpink;
-text-align:"center";
-font-size: 32px;
-font-family: Arial, sans-serif;
+h2 { color: #25357c ;
+ font-size: 14px;
+font-family: 'Open Sans', sans-serif;
 }
 
-b { color: hotpink;
+h3 { color: orange;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+b {"color: black ;
 text-decoration: line-through;
 font-size: 14px;
 
 }
 
-p {font-size: 18px;
-  font-family: 'Times New Roman',serif;
+p {font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  font-weight: bold
 }
 
-img {max-width: 600px;
+img {max-width: 1000px;
      max-height: auto;
 }
