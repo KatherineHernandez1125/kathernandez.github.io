@@ -42,9 +42,10 @@ p {font-size: 14px;
 }
 
 img {display: block;
-     max-width: 2000px;
-     max-height: 600px;
+     max-width: 1700px;
+     max-height: 800px;
      margin-left: 100;
+     border: none;
      <img src="data-flickr-embed="true"  href="https://www.flickr.com/photos/eb78/12278385065/" title="ex-vandals"><img src="https://farm4.staticflickr.com/3825/12278385065_c40932f683_h.jpg" width="1600" height="788"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>"
 }
 </html>
