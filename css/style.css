@@ -41,12 +41,15 @@ p {font-size: 14px;
   font-weight: bold
 }
 
-img {display: block; 
+img {display: block;
      max-width: 1200px;
      max-height: 800px;
      margin: 0;
      border: 0;
      padding-left:0;
      <img src="data-flickr-embed="true"  href="https://www.flickr.com/photos/eb78/12278385065/"title="ex-vandals"><img src="https://farm4.staticflickr.com/3825/12278385065_c40932f683_h.jpg" width="1400" height="788"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>"
+     <div class="container">
+     <div class="bottomleft">East New York Gets a Fresh Coat of Paint</div>
+     </div>
 }
 </html>
