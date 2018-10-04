@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 /* This is a CSS Comment*/
 
 /* font-family: 'Notable', sans-serif;
@@ -24,7 +22,7 @@ body {
   padding-right: 20px:
 }
 
-<<<<<<< HEAD
+
 header {
   background-image:url("https://farm4.staticflickr.com/3825/12278385065_c40932f683_h.jpg");
   background-size: cover;
@@ -61,7 +59,7 @@ header {
   margin-left: 20px;
   margin-right: 200px;
 
-=======
+
 h1 {color:orange ;
   font-family: 'font-family: 'Playfair Display', sans-serif;
   font-size: 50px;
@@ -71,7 +69,6 @@ h1 {color:orange ;
 h2 { color: #25357c ;
  font-size: 14px;
 font-family: 'Open Sans', sans-serif;
->>>>>>> c124cb5f61d7008aa65330eaffdbfc69ee6deca5
 }
 
 #author {
@@ -100,7 +97,6 @@ font-family: 'Open Sans', sans-serif;
 */
 
 }
-
 article {
   max-width: 700px;
   padding: 20px 20px;
@@ -132,7 +128,6 @@ font-size: 14px;
 
 }
 
-<<<<<<< HEAD
 p {
   font-size: 17px;
   font-family: 'Libre Baskerville', serif;
@@ -158,13 +153,6 @@ img {
      margin-left: 310px;
 }
 
-blockquote {
-  font-size: 17px;
-  font-family: 'Boogaloo', cursive;
-  color: black;
-  font-weight: bold;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -177,16 +165,7 @@ blockquote {
 .column {
     flex: 30.33%;
     padding: 5px;
-=======
-p {font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
-  color: #25357c;
-  font-weight: bold
-}
 
 img {max-width: 1000px;
      max-height: auto;
-     <img src="http://streetartnyc.org/wp-content/uploads/2016/03/tags-subway-map-on-paper.jpg">
->>>>>>> c124cb5f61d7008aa65330eaffdbfc69ee6deca5
 }
-</html>
