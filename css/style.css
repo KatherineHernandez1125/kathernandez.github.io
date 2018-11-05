@@ -3,25 +3,45 @@
 /* font-family: 'Notable', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
-/*
-nav {
-      color: white;
-      font-family: 'Montserrat', serif;
-      font-size: 30px;
-      font weight: 800;
-      line-height: 1.5;
-    }
-    */
 
-body {
-  color: white;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 14px;
-  font-weight: bold;
-  background-color: #d9d9d9;
-  padding-right: 20px:
+*, html {
+  box-sizing:border-box;
 }
 
+
+body {
+  color: black;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #e4e4e4;
+  line-height: 1.5;
+  /* padding-right: 20px: */
+}
+
+nav {
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+/* I created a (li) tag to inline my navigation at the top of my header and I wanted to remove the underlinig attached to the links in my nav. */
+li > a {
+  text-decoration: none;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 25px;
+  font weight: 500;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 20px;
+  word-spacing: normal;
+}
 
 header {
   background-image:url("https://farm4.staticflickr.com/3825/12278385065_c40932f683_h.jpg");
@@ -29,73 +49,52 @@ header {
   background-repeat: no-repeat;
   background-position:center;
   height: 600px;
+  margin-top: 5px;
 }
 
-.display{
+.display {
     color: white;
-    font-family: 'Boogaloo', cursive;
     font-size: 100px;
-    font weight: normal;
+    font-weight: bold;
     line-height: 1.3;
     position: absolute;
-    top: 350px;
     text-transform:capitalize;
     margin-left: 20px;
     margin-right: auto;
-
-    /* padding: 20px 10px; */
+    top: 430px;
+    word-spacing:auto;
   }
+
 
 .summary {
   color: white;
-  font-family: 'Boogaloo', cursive;
-  font-size: 35px;
-  font weight: 800;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font weight: normal;
   line-height: 1.6;
   position: absolute;
-  top: 500px;
+  top: 590px;
   margin-left: 20px;
-  margin-right: 200px;
-
+  margin-right: auto;
 }
 
 #author {
-  color: white;
-  font-family: 'Libre Baskerville', serif;
-  font-size: 15px;
-  font weight: 800;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
   line-height: 1.5;
-  bottom: 6%;
-  display: block;
-     margin-right: 300px;
-     margin-left: 300px;
-     line-height: 25px;
-  /* position: relative; */
+}
 
-}
-/*
-.topnav {
-  color: white;
-  font-family: 'Montserrat', serif;
-  font-size: 20px;
-  font weight: 800;
-  line-height: 1.5;
-  word-spacing: 20%;
-  top:10%
-  padding:inherit;
-  text-align: center;
-}
-*/
-
-}
 article {
-  max-width: auto;
-  padding: 20px 20px;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
 }
 
 h1 {
   color: white;
-  font-family:'Boogaloo', cursive;
+  font-family:'Share Tech Mono', monospace;
   font-size: 100px;
   font weight: normal;
 }
@@ -103,108 +102,59 @@ h1 {
 h2 {
   color: white;
   font-size: 24px;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
-  color: white;
-  font-size: 1px;
-  font-family: 'Libre Baskerville', serif;
-}
-
-b {
-  color: white;
-  text-decoration: line-through;
-  font-size: 14px;
-
+  color: black;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
 }
 
 p {
-  font-size: 17px;
-  font-family: 'Libre Baskerville', serif;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
   color: black;
   font-weight: normal;
   display: block;
-     margin-right: 300px;
-     margin-left: 300px;
-     line-height: 25px;
+  line-height: 25px;
 }
 
-iframe {
-  display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: 50%;
+
+blockquote {
+    line-height: 1.2;
+    font-size: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font color: orange;
+ }
+
+figure {
+  display:block;
+  margin: 0px;
+
 }
 
 img {
-  display: block;
-     height: 500px;
-     width: 800px
-     margin-left: 310px;
-
+  max-width: 100%;
+  height: auto;
+  padding-left: 10px;
 }
 
-.blockquote {
-    display: block;
-    margin-right: 300px;
-    margin-left: 300px;
-    line-height: 45px;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-size: 50px;
-    font-family: 'Boogaloo', sans-serif;
-    font color: black;
-}
-
-}
-figure {
-  /* float: left; */
-}
 figcaption {
-  font-size: 18px;
-  font-family: 'Boogaloo', cursive;
-  color: black;
-  font-weight: normal;
-  /* display: block;
-  margin-left: 40px;
-  margin-right: 40px; */
+  text-align: left;
+  padding-left: 10px;
+
+ }
+
+.imagescontainer {
+  display: flex;
+  flex-direction: row;
 }
 
-/* #pictures {
-  display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: auto;
-      float: left;
-    }
-
-#image {
-  display: block;
-      margin-left: auto;
-      margin-right: auto;
-      width: auto;
-      float: right
-
-*/
-
-}
-
-div.image-gallery {
-  display: block;
-}
+a:hover {
+    background-color:#FFFFFF ;
+  }
 
 
-div.image-gallery img {
-  display: block;
-  float: left;
-  margin: 0px 0px 50px 50px
-}
-
-.clear {
-  clear: both;
-  height: 0;
-  width: 0;
-  font-size: 1px;
-  line-height: 0;
-}
+/*  MEDIAQUERIES is the css for mobile */
