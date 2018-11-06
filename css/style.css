@@ -1,7 +1,7 @@
 /* This is a CSS Comment*/
 
-/* font-family: 'Notable', sans-serif;
-font-family: 'Montserrat', sans-serif;
+/* font-family: 'Share Tech Mono', monospace;
+font-family: 'Roboto', sans-serif;
 */
 
 *, html {
@@ -18,7 +18,7 @@ body {
   line-height: 1.5;
 }
 
-/* (Nav) is the tag for my navigation which is aligned in the center and displaying inline */
+/* (Nav) is the tag for my navigation which is aligned in the center of my page and displaying inline */
 nav {
   width: 100%;
 }
@@ -43,7 +43,7 @@ li > a {
   word-spacing: normal;
 }
 
-/* These are the atrributes that code the background image I have on my page and its attributes*/
+/* These are the atrributes that code the background image I have on my page*/
 header {
   background-image:url("https://farm4.staticflickr.com/3825/12278385065_c40932f683_h.jpg");
   background-size: cover;
@@ -80,7 +80,7 @@ header {
   margin-right: auto;
 }
 
-/* (author) tag atrributes to my by line */
+/* (author) tag atrributes to my byline */
 #author {
   color: black;
   font-family: 'Roboto', sans-serif;
