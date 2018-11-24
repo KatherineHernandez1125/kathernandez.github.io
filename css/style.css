@@ -54,11 +54,12 @@ li > a {
 
 /* These are the atrributes that code the background image I have on my page*/
 header {
-  background-image:url(../images/Blockparty1.jpg);
+  background-image:url(../Images/Blockparty1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   height: 700px;
+  background-color: black;
   /*margin-top: 5px;*/
 }
 
@@ -192,7 +193,7 @@ a:hover {
   }
 
 footer {
-  background-image:url(../images/Blockparty5.jpg);
+  background-image:url(../Images/Blockparty5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
