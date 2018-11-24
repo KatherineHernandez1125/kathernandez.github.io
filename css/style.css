@@ -193,12 +193,12 @@ a:hover {
   }
 
 footer {
-  background-image:url(../Images/Blockparty5.jpg);
+  background-image:url(../thekathernandez.github.io/Images/blockparty5.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
   height: 700px;
-  background-color: black;
+  background-color: black;     
 }
 
 /*  MEDIAQUERIES is the css for mobile */
