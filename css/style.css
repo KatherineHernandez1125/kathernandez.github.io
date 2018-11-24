@@ -189,7 +189,7 @@ figcaption {
 
 /* (a:hover) tag helps me change give the hover quality on linked words a color*/
 a:hover {
-    background-color:red ;
+    background-color:#005e7d;
   }
 
 footer {
