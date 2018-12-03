@@ -73,7 +73,7 @@ header {
     text-transform:capitalize;
     margin-left: 20px;
     margin-right: auto;
-    top: 510px;
+    top: 400px;
     word-spacing:auto;
   }
 
@@ -85,7 +85,7 @@ header {
   font weight: normal;
   line-height: 1.6;
   position: absolute;
-  top: 650px;
+  top: 600px;
   margin-left: 20px;
   margin-right: auto;
 }
@@ -98,7 +98,7 @@ header {
   font weight: bold;
   line-height: 1.6;
   position: absolute;
-  top: 700px;
+  top: 640px;
   margin-left: 20px;
   margin-right: auto;
 }
