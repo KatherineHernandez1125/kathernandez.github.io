@@ -1,0 +1,166 @@
+/* This is a CSS Comment*/
+
+/* font-family: 'Share Tech Mono', monospace;
+font-family: 'Roboto', sans-serif;
+*/
+
+*, html {
+  box-sizing:border-box;
+}
+
+/*Everything in the tag (body) affects the content within this box*/
+body {
+  color: white;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+  line-height: 1.5;
+}
+
+/* (Nav) is the tag for my navigation which is aligned in the center of my page and displaying inline */
+nav {
+  width: 100%;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline;
+  text-align: center;
+}
+/* I created a (li) tag to inline my navigation at the top of my header and I wanted to remove the underlining attached to the links in my nav. */
+li > a {
+  text-decoration: underline;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 25px;
+  font weight: 500;
+  text-align: center;
+  font-weight: bold;
+  padding-left: 20px;
+  word-spacing: normal;
+}
+
+/* These are the atrributes that code the background image I have on my page*/
+header {
+  background-image:url(../Images/BlockPartyPhoto6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  height: 700px;
+}
+
+/* (Display) tag atrributes to my h1/main header */
+.display {
+    color: white;
+    font-size: 60px;
+    line-height: 1.0;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: auto;
+    top: 400px;
+    text-decoration: underline;
+
+  }
+
+/* (summary) tag atrributes to my h2 and sub-header */
+.summary {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.3;
+  position: absolute;
+  top: 610px;
+  margin-left: 10px;
+  margin-right: auto;
+
+}
+
+/* (author) tag atrributes to my byline */
+#author {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+article {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  font-family:'Share Tech Mono', monospace;
+  font-size: 100px;
+  font weight: bold;
+}
+
+h2 {
+  color: white;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+h3 {
+  color: white;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+}
+/* (p) tag atrributes to all the text in my paragraphs */
+p {
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: normal;
+  display: block;
+  line-height: 25px;
+}
+
+
+blockquote {
+    line-height: 1.2;
+    font-size: 40px;
+    font-family: 'Share Tech Mono', monospace;
+    font-weight: bold;
+    font color: orange;
+ }
+
+figure {
+  display:block;
+  margin: 0px;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding-left: 10px;
+}
+
+figcaption {
+  text-align: left;
+  padding-left: 10px;
+
+ }
+/* (imagescontainer) tag atrributes to my photos half way down the page. Display:flex allows me to place two images next to each other */
+.imagescontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+/* (a:hover) tag helps me change give the hover quality on linked words a color*/
+a:hover {
+    background-color:#FFFFFF ;
+  }
+
+
+/*  MEDIAQUERIES is the css for mobile */
